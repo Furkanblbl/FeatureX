@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('images/underwater.avi')
+cap = cv2.VideoCapture('images/balloons.avi')
 
 while cap.isOpened():
     _, frame = cap.read()
